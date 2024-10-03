@@ -9,7 +9,7 @@ A tool that uses Mask R-CNN to segment objects in images and rotate them based o
 - [How It Works](#how-it-works)
 - [Input](#Input)
 - [Output](#Output)
-- [Description About Steps](#Description About Steps)
+- [Description About Steps](#Description-About-Steps)
 
 ## Installation
 

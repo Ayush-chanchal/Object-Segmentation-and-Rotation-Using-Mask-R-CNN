@@ -56,7 +56,7 @@ To run the segmentation and rotation of an object, use the following command:
 
 ## Description About Steps
 
-1.Image Loading:
+1. Image Loading:
 
 The first step in the process is to load the input image. This image is provided by the user via the command-line interface (CLI).
 The image is loaded into the program using OpenCV for further processing.
@@ -81,7 +81,7 @@ The segmented object is then rotated around its center by the specified angle us
 After the object is rotated, it is merged back into its original position in the image. The surrounding background remains unchanged.
 This step ensures that the rotated object fits seamlessly back into the original scene, maintaining a realistic appearance.
 
-6.Saving the Output:
+6. Saving the Output:
 
 The final image, with the rotated object and original background, is saved to the specified output path.
 The user can specify where the output image should be stored via the command-line argument.

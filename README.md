@@ -36,4 +36,5 @@ To run this project, ensure you have **Python 3.x** installed. Follow the steps 
 To run the segmentation and rotation of an object, use the following command:
 ```bash
    python3 cli.py --image "/Users/sahilnarwal/Desktop/Ayush/images_Of_Chair.jpeg" --class_name "chair" --azimuth 45 --output "/Users/sahilnarwal/Desktop/Ayush/output_image.jpg"
- 
+
+## 

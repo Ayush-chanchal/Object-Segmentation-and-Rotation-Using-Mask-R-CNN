@@ -46,5 +46,5 @@ To run the segmentation and rotation of an object, use the following command:
 5. Output: The final image, with the rotated object, is saved to the specified output path.
 
 ## Input
-![Output Image](images/output_image.jpg "Rotated Object Output")
+![Output Image](https://github.com/Ayush-chanchal/Object-Segmentation-and-Rotation-Using-Mask-R-CNN/blob/main/images_Of_Chair.jpeg "Rotated Object Output")
 

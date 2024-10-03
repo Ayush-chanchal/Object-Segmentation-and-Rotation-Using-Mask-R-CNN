@@ -1,9 +1,7 @@
-# Object-Segmentation-and-Rotation-Using-Mask-R-CNN
-A tool that uses Mask R-CNN to segment objects in images and rotate them based on user-specified angles, while preserving the original background.
 
-# Pose Edit: Object Segmentation and Rotation Using Mask R-CNN
+# Object Segmentation and Rotation Using Mask R-CNN
 
-This project implements object segmentation and rotation using the **Mask R-CNN** model. The primary objective is to detect and manipulate the pose of objects in images, specifically focusing on chairs in this implementation.
+A tool that uses Mask R-CNN to segment objects in images and rotate them based on user-specified angles, while preserving the original background. This project implements object segmentation and rotation using the **Mask R-CNN** model. The primary objective is to detect and manipulate the pose of objects in images, specifically focusing on chairs in this implementation.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -20,3 +18,22 @@ To run this project, ensure you have **Python 3.x** installed. Follow the steps 
    ```bash
    git clone https://github.com/yourusername/your-repository.git
    cd your-repository
+
+2. **Create a virtual environment (optional but recommended):
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+3. **Install necessary packages: Install TensorFlow and OpenCV for image processing:
+   ```bash
+   pip install tensorflow opencv-python
+4. **Download and extract the Mask R-CNN model: You need the Mask R-CNN pre-trained model from TensorFlow's model zoo. Run the following commands to download and extract the model:
+   ```bash
+   wget -O mask_rcnn_inception_v2_coco_2018_01_28.tar.gz http://download.tensorflow.org/models/mask_rcnn_inception_v2_coco_2018_01_28.tar.gz
+   tar -xvf mask_rcnn_inception_v2_coco_2018_01_28.tar.gz
+   
+## Usage
+
+To run the segmentation and rotation of an object, use the following command:
+```bash
+   python3 cli.py --image "/Users/sahilnarwal/Desktop/Ayush/images_Of_Chair.jpeg" --class_name "chair" --azimuth 45 --output "/Users/sahilnarwal/Desktop/Ayush/output_image.jpg"
+ 
